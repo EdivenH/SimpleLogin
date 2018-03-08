@@ -22,7 +22,7 @@ $(function() {
 
     $("#btn_sign").click(function(event){
       event.preventDefault(); 
-      window.location.href = "../login/sign-up.html"
+      window.location.href = "./login/sign-up.html"
     });
 });
 
