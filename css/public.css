@@ -11,7 +11,7 @@
 
 @media all and (max-width: 481px){
     :root{
-        --base-font-size: 10px;
+        --base-font-size: 5px;
         --base-width: 400px;
         --base-margin: 50px;
         --base-padding: 20px;
