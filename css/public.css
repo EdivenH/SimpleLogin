@@ -1,0 +1,22 @@
+:root{
+    --base-font-size: 10px;
+    --base-width: 480px;
+    --base-margin: 200px;
+    --base-padding: 50px;
+    --base-background-size: 35px 30px;
+    --base-top: 4px;
+    --base-bottom: 32px;
+}
+
+
+@media all and (max-width: 481px){
+    :root{
+        --base-font-size: 10px;
+        --base-width: 400px;
+        --base-margin: 50px;
+        --base-padding: 20px;
+        --base-background-size: 30px 25px;
+        --base-top: 2px;
+        --base-bottom: 13px;
+    }
+}

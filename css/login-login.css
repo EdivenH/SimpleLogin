@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 html{
-    font-size: 10px;
+    font-size: var(--base-font-size);
     height: 100%;
     font-family: Verdana, 'Microsoft YaHei';
 }
@@ -20,11 +20,11 @@ body{
 }
 #login_frame{
     flex: 0 0 auto;
-    width: 400px;
-    min-width: 400px;
-    height: 260px;
-    min-height: 260px;
-    margin-bottom: 200px;
+    width: var(--base-width);
+    /* min-width: 400px; */
+    /* height: 260px; */
+    /* min-height: 260px; */
+    margin-bottom: var(--base-margin);
     /* padding: 13px; */
 
     /* position: absolute; */
@@ -48,20 +48,20 @@ h1{
     line-height: 1.2;
     /* margin: 5px; */
     font-weight: bold;
-    width: 150px;
-    margin: 15px auto;
-    padding-left: 35px;
+    width: calc(var(--base-width)/3);
+    margin: calc(var(--base-margin)/4) auto;
+    padding-left: calc(var(--base-padding)/2);
     /* display: inline-block; */
     /* vertical-align: middle; */
     background: url("../images/log.png") no-repeat left;
-    background-size: 35px 30px;
+    background-size: var(--base-background-size);
 }
 hr{
     margin: 0;
 }
 p{
     
-    margin: 20px 0;
+    margin: calc(var(--base-margin)/10) 0;
 }
 .label_input{
     
@@ -73,14 +73,14 @@ p{
 }
 .text_field{
       
-    width: 220px;
+    width: calc(var(--base-width)/2);
     height: 28px;
     border-top-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border: 0;
 }
 #login_control{
-    margin-top: 40px;
+    margin-top: calc(var(--base-margin)/5);
     /* display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -89,7 +89,7 @@ p{
 }
 #btn_login{
     
-    width: 120px;
+    width: calc(var(--base-width)/4);
     height: 28px;
     line-height: 28px;
     text-align: center;
@@ -105,7 +105,7 @@ p{
 }
 #btn_sign{
 
-    width: 120px;
+    width: calc(var(--base-width)/4);
     height: 28px;
     line-height: 28px;
     text-align: center;
